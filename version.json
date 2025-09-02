@@ -1,0 +1,10 @@
+{
+  "script": "Codex Trust System",
+  "version": "1.2.0",
+  "changelog": [
+    "🐛 Fixed crashes when updating trust levels",
+    "🛡 Improved stability with database rows",
+    "🛍 Shop purchase tracking improvements",
+    "🧹 General cleanups and debug improvements"
+  ]
+}
