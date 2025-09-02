@@ -1,6 +1,6 @@
 {
   "script": "Codex Trust System",
-  "version": "1.2.0",
+  "version": "1.8",
   "changelog": [
     "🐛 Fixed crashes when updating trust levels",
     "🛡 Improved stability with database rows",
@@ -8,3 +8,4 @@
     "🧹 General cleanups and debug improvements"
   ]
 }
+
