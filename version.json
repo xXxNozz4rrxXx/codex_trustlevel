@@ -3,8 +3,9 @@
   "version": "1.9",
   "changelog": [
     "🐛 Fixed No such export SecurityAPI in resource codex_security even if the AccessToSecurityApi from config was false",
-  
+    "🐛 Optimize and clean up some code",
   ]
 }
+
 
 
