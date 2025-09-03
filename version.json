@@ -1,11 +1,10 @@
 {
   "script": "Codex Trust System",
-  "version": "1.8",
+  "version": "1.9",
   "changelog": [
-    "🐛 Fixed crashes when updating trust levels",
-    "🛡 Improved stability with database rows",
-    "🛍 Shop purchase tracking improvements",
-    "🧹 General cleanups and debug improvements"
+    "🐛 Fixed No such export SecurityAPI in resource codex_security even if the AccessToSecurityApi from config was false",
+  
   ]
 }
+
 
