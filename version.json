@@ -1,11 +1,12 @@
 {
   "script": "Codex Trust System",
-  "version": "1.9",
+  "version": "1.8",
   "changelog": [
     "🐛 Fixed No such export SecurityAPI in resource codex_security even if the AccessToSecurityApi from config was false",
     "🐛 Optimize and clean up some code",
   ]
 }
+
 
 
 
