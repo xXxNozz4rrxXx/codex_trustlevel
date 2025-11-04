@@ -1,6 +1,6 @@
 {
   "script": "Codex Trust System",
-  "version": "2.0",
+  "version": "2.1",
   "changelog": [
     "🐛 Fixed No such export SecurityAPI in resource codex_security even if AccessToSecurityApi was false in config",
     "🐛 Optimized and cleaned up redundant code across core and module handlers",
@@ -14,3 +14,4 @@
     "🧩 Added full support for writing custom logic, missions, and jobs directly in one CodexCore script"
   ]
 }
+
