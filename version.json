@@ -2,21 +2,15 @@
   "script": "Codex Trust System",
   "version": "2.0",
   "changelog": [
-      "🐛 Fixed No such export SecurityAPI in resource codex_security even if AccessToSecurityApi was false in config",
-      "🐛 Optimized and cleaned up redundant code across core and module handlers",
-      "🐛 Fixed Codex TrustShop ox_lib menu not triggering server-side buy events (added proper onSelect handler)",
-      "🐛 Fixed client–server mismatch for codex:buyItem event (now uses TriggerServerEvent correctly)",
-      "🐛 Added safe debug logging across TrustShop menus, items, prompts, and NPC systems",
-      "✨ Improved developer debug consistency — all prints unified under [Codex TrustShop DEBUG]",
-      "✨ Enhanced menu event structure for both ox_lib and VORP menuapi compatibility",
-      "⚙️ Updated inventory and money API calls to align with CodexCore server-side wrappers",
-      "💡 Improved performance by reducing unnecessary loops and added non-spammy debug checkpoints"
+    "🐛 Fixed No such export SecurityAPI in resource codex_security even if AccessToSecurityApi was false in config",
+    "🐛 Optimized and cleaned up redundant code across core and module handlers",
+    "🐛 Fixed Codex TrustShop ox_lib menu not triggering server-side buy events (added proper onSelect handler)",
+    "🐛 Fixed client–server mismatch for codex:buyItem event (now uses TriggerServerEvent correctly)",
+    "🐛 Added safe debug logging across TrustShop menus, items, prompts, and NPC systems",
+    "✨ Improved developer debug consistency — all prints unified under [Codex TrustShop DEBUG]",
+    "✨ Enhanced menu event structure for both ox_lib and VORP menuapi compatibility",
+    "⚙️ Updated inventory and money API calls to align with CodexCore server-side wrappers",
+    "💡 Improved performance by reducing unnecessary loops and added non-spammy debug checkpoints",
+    "🧩 Added full support for writing custom logic, missions, and jobs directly in one CodexCore script"
   ]
-
 }
-
-
-
-
-
-
