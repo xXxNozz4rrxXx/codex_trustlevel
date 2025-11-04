@@ -1,7 +1,7 @@
 {
   "script": "Codex Trust System",
-  "version": "2.0,
-  "changelog": 
+  "version": "2.0",
+  "changelog": [
       "🐛 Fixed No such export SecurityAPI in resource codex_security even if AccessToSecurityApi was false in config",
       "🐛 Optimized and cleaned up redundant code across core and module handlers",
       "🐛 Fixed Codex TrustShop ox_lib menu not triggering server-side buy events (added proper onSelect handler)",
@@ -11,8 +11,10 @@
       "✨ Enhanced menu event structure for both ox_lib and VORP menuapi compatibility",
       "⚙️ Updated inventory and money API calls to align with CodexCore server-side wrappers",
       "💡 Improved performance by reducing unnecessary loops and added non-spammy debug checkpoints"
+  ]
 
 }
+
 
 
 
