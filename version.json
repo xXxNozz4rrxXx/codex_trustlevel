@@ -1,17 +1,15 @@
 {
   "script": "Codex Trust System",
-  "version": "2.1",
+  "version": "2.5",
   "changelog": [
-    "🐛 Fixed No such export SecurityAPI in resource codex_security even if AccessToSecurityApi was false in config",
-    "🐛 Optimized and cleaned up redundant code across core and module handlers",
-    "🐛 Fixed Codex TrustShop ox_lib menu not triggering server-side buy events (added proper onSelect handler)",
-    "🐛 Fixed client–server mismatch for codex:buyItem event (now uses TriggerServerEvent correctly)",
-    "🐛 Added safe debug logging across TrustShop menus, items, prompts, and NPC systems",
-    "✨ Improved developer debug consistency — all prints unified under [Codex TrustShop DEBUG]",
-    "✨ Enhanced menu event structure for both ox_lib and VORP menuapi compatibility",
-    "⚙️ Updated inventory and money API calls to align with CodexCore server-side wrappers",
-    "💡 Improved performance by reducing unnecessary loops and added non-spammy debug checkpoints",
-    "🧩 Added full support for writing custom logic, missions, and jobs directly in one CodexCore script"
+    "🐛 Fixed issue where multiple shops appeared in one shared menu — now each NPC/shop opens its own menu independently",
+    "🧠 Menu titles now dynamically use the shop key name (e.g. ['BlackMarket Drugs']) instead of the global menu title",
+    "🔧 Reworked OpenMainMenu() to take a shopKey argument, ensuring isolated menu contexts for each store",
+    "🧱 Unique menu IDs are now created per shop (codex_main_shops_menu_[ShopKey]) to prevent overlap in ox_lib and menuapi",
+    "🎯 Cleaned and improved NPC prompt behavior for shop-specific interactions",
+    "🚀 Overall improved TrustShop modularity and future expandability for multi-shop environments"
   ]
+
 }
+
 
