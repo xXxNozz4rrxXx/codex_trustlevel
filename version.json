@@ -1,6 +1,6 @@
 {
   "script": "Codex Trust System",
-  "version": "2.5",
+  "version": "2.4",
   "changelog": [
     "🐛 Fixed issue where multiple shops appeared in one shared menu — now each NPC/shop opens its own menu independently",
     "🧠 Menu titles now dynamically use the shop key name (e.g. ['BlackMarket Drugs']) instead of the global menu title",
@@ -11,5 +11,6 @@
   ]
 
 }
+
 
 
