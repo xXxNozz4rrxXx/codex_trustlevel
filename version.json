@@ -1,7 +1,8 @@
 {
   "script": "Codex Trust System",
-  "version": "2.4",
+  "version": "2.5",
   "changelog": [
+    "✨ Added Locales system you can easy put your own languages",
     "🐛 Fixed issue where multiple shops appeared in one shared menu — now each NPC/shop opens its own menu independently",
     "🧠 Menu titles now dynamically use the shop key name (e.g. ['BlackMarket Drugs']) instead of the global menu title",
     "🔧 Reworked OpenMainMenu() to take a shopKey argument, ensuring isolated menu contexts for each store",
@@ -11,6 +12,7 @@
   ]
 
 }
+
 
 
 
